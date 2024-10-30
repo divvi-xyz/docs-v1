@@ -1,47 +1,46 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'Mobile Stack Docs',
-  tagline: 'Documentation for building with Mobile Stack',
-  favicon: 'img/favicon.ico',
+  title: "Mobile Stack Docs",
+  tagline: "Documentation for building with Mobile Stack",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://docs.mobilestack.xyz',
+  url: "https://docs.mobilestack.xyz",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mobilestack-xyz', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: "mobilestack-xyz", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/mobilestack-xyz/docs/tree/main/',
+          sidebarPath: "./sidebars.ts",
+          editUrl: "https://github.com/mobilestack-xyz/docs/tree/main/",
           // The default is /docs, but we don't have anything other content but docs.
-          routeBasePath: '/',
+          routeBasePath: "/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -49,41 +48,41 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Mobile Stack Docs',
+      title: "Mobile Stack Docs",
       logo: {
-        alt: 'Mobile Stack Logo',
-        src: 'img/valora-app-icon.png',
+        alt: "Mobile Stack Logo",
+        src: "img/valora-app-icon.png",
       },
       items: [
         {
-          href: 'https://github.com/mobilestack-xyz/docs',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/mobilestack-xyz/docs",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discord',
-              href: 'https://valoraapp.co/discord',
+              label: "Discord",
+              href: "https://valoraapp.co/discord",
             },
             {
-              label: 'Twitter',
-              href: 'https://www.twitter.com/valoraApp',
+              label: "Twitter",
+              href: "https://www.twitter.com/valoraApp",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/mobilestack-xyz',
+              label: "GitHub",
+              href: "https://github.com/mobilestack-xyz",
             },
           ],
         },

@@ -1,0 +1,86 @@
+name: Workflow
+
+on:
+  # Run on pushes to main..
+  push:
+    branches:
+      - main
+  # ..and any pull request.
+  pull_request:
+
+# Cancel any in progress run of the workflow for a given PR
+# This avoids building outdated code
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-for-sh:
+    name: Check for .sh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: "echo '*** Do not write .sh scripts! ***'; ! find . -type f -name '*.sh' | grep ."
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          check-latest: true
+      - run: yarn
+      - run: yarn typecheck
+      - run: yarn format:check
+      - run: yarn lint
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          check-latest: true
+      - run: yarn
+      - run: yarn build
+  deploy-staging:
+    name: Deploy staging
+    if: github.ref == 'refs/heads/main'
+    needs:
+      - lint
+      - build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          check-latest: true
+      - run: yarn
+      - run: yarn build:staging
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VALORA_DOCS_STAGING }}' > /dev/shm/gcloud.json
+      - run: yarn firebase deploy --project=staging
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
+  deploy-production:
+    name: Deploy production
+    if: github.ref == 'refs/heads/main'
+    needs:
+      - lint
+      - build
+      - deploy-staging
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          check-latest: true
+      - run: yarn
+      - run: yarn build:production
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VALORA_DOCS }}' > /dev/shm/gcloud.json
+      - run: yarn firebase deploy --project=production
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
