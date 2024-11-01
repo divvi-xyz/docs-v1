@@ -60,7 +60,7 @@ jobs:
           check-latest: true
       - run: yarn
       - run: yarn build:staging
-      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VALORA_DOCS_STAGING }}' > /dev/shm/gcloud.json
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOBILE_STACK_DOCS_STAGING }}' > /dev/shm/gcloud.json
       - run: yarn firebase deploy --project=staging
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
