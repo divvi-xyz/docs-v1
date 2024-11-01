@@ -59,7 +59,7 @@ jobs:
           node-version: "18"
           check-latest: true
       - run: yarn
-      - run: yarn build:staging
+      - run: yarn build
       - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOBILE_STACK_DOCS_STAGING }}' > /dev/shm/gcloud.json
       - run: yarn firebase deploy --project=staging
         env:
