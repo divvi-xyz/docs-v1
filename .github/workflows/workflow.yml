@@ -79,8 +79,8 @@ jobs:
           node-version: "18"
           check-latest: true
       - run: yarn
-      - run: yarn build:production
-      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VALORA_DOCS }}' > /dev/shm/gcloud.json
+      - run: yarn build
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOBILE_STACK_DOCS }}' > /dev/shm/gcloud.json
       - run: yarn firebase deploy --project=production
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
