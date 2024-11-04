@@ -1,0 +1,6 @@
+{
+  extends: ['github>valora-inc/renovate-config:default.json5'],
+  'git-submodules': {
+    enabled: true,
+  },
+}
