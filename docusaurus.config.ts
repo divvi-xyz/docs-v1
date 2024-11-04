@@ -51,7 +51,7 @@ const config: Config = {
       title: "Mobile Stack Docs",
       logo: {
         alt: "Mobile Stack Logo",
-        src: "img/valora-app-icon.png",
+        src: "img/mobile-stack-icon.svg",
       },
       items: [
         {
