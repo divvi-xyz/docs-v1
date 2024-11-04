@@ -1,0 +1,6 @@
+# Ignore since running yarn add package will rewrite it
+package.json
+
+build
+submodules
+.docusaurus
