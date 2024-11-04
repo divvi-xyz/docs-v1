@@ -1,0 +1,3 @@
+[submodule "submodules/mobilestack-runtime"]
+	path = submodules/mobilestack-runtime
+	url = https://github.com/mobilestack-xyz/mobilestack-runtime.git
