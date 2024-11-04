@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "git submodule update --recursive --init",
     "format": "prettier --loglevel error --write .",
     "format:check": "prettier --check .",
     "lint": "echo TODO",
