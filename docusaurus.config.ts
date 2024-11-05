@@ -35,7 +35,15 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/mobilestack-xyz/docs/tree/main/",
+          editUrl: ({ versionDocsDirPath, docPath }) => {
+            if (docPath.startsWith('hooks/')) {
+              return `https://github.com/valora-inc/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
+                /^hooks\//,
+                '',
+              )}`
+            }
+            return `https://github.com/mobilestack-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`
+          },
           // The default is /docs, but we don't have anything other content but docs.
           routeBasePath: "/",
         },
@@ -44,6 +52,25 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
+    function (context, options) {
+      return {
+        name: 'webpack-configuration-plugin',
+        configureWebpack(config, isServer, utils) {
+          return {
+            resolve: {
+              // This is needed for our submodules docs to work correctly with Docusaurus.
+              // Setting this to `false` doesn't mean it doesn't follow symlinks, it means it doesn't fully resolve them
+              // which is the default and doesn't work with our submodule symlink setup.
+              // See https://github.com/facebook/docusaurus/issues/3272
+              symlinks: false,
+            },
+          }
+        },
+      }
+    },
   ],
 
   themeConfig: {
