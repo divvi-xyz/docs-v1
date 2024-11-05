@@ -36,13 +36,13 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           editUrl: ({ versionDocsDirPath, docPath }) => {
-            if (docPath.startsWith('hooks/')) {
+            if (docPath.startsWith("hooks/")) {
               return `https://github.com/valora-inc/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
                 /^hooks\//,
-                '',
-              )}`
+                "",
+              )}`;
             }
-            return `https://github.com/mobilestack-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`
+            return `https://github.com/mobilestack-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`;
           },
           // The default is /docs, but we don't have anything other content but docs.
           routeBasePath: "/",
@@ -57,7 +57,7 @@ const config: Config = {
   plugins: [
     function (context, options) {
       return {
-        name: 'webpack-configuration-plugin',
+        name: "webpack-configuration-plugin",
         configureWebpack(config, isServer, utils) {
           return {
             resolve: {
@@ -67,9 +67,9 @@ const config: Config = {
               // See https://github.com/facebook/docusaurus/issues/3272
               symlinks: false,
             },
-          }
+          };
         },
-      }
+      };
     },
   ],
 
