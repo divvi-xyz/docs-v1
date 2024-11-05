@@ -17,5 +17,5 @@ end-users. Mobile Stack aims to support:
 ## Community
 
 If you have questions or want to discuss Mobile Stack, please join our
-Discord Community. [#dapp-dev](https://discord.gg/gQvjYv5Fqh) is a
-good channel to start a discussion.
+Discord Community. [#mobile-stack-dev](https://discord.gg/gQvjYv5Fqh)
+is a good channel to start a discussion.
