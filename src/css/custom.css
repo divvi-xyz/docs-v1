@@ -24,7 +24,7 @@
  * Lighten & darken --ifm-color-primary:
  *   https://www.colors.tools/lighten-and-darken/?currentColor=ff5050&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
  */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --ifm-color-primary: #ff5050;
   --ifm-color-primary-dark: #ff1010;
   --ifm-color-primary-darker: #d00000;
