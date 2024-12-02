@@ -37,7 +37,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: ({ versionDocsDirPath, docPath }) => {
             if (docPath.startsWith('hooks/')) {
-              return `https://github.com/valora-inc/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
+              return `https://github.com/mobilestack-xyz/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
                 /^hooks\//,
                 '',
               )}`
