@@ -3,4 +3,4 @@
 	url = https://github.com/mobilestack-xyz/mobilestack-runtime.git
 [submodule "submodules/hooks"]
 	path = submodules/hooks
-	url = https://github.com/valora-inc/hooks.git
+	url = https://github.com/mobilestack-xyz/hooks.git
