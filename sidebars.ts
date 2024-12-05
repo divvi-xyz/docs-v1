@@ -24,6 +24,15 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Publishing',
+      items: [
+        'publishing/play-store',
+        'publishing/app-store',
+        'publishing/asset-requirements',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Adding a backend protocol',
       items: [
         {
