@@ -72,7 +72,7 @@ After the purchase, you must wait on Apple for up to 48 hours. **Please watch yo
 [Log in to App Store Connect](https://appstoreconnect.apple.com/apps)
 
 - Click “Users & Access”
-- [Invite Valora](https://developer.apple.com/help/account/manage-your-team/invite-team-members/): Invite your MS CSM as an **Admin**
+- [Invite your MSM CSM](https://developer.apple.com/help/account/manage-your-team/invite-team-members/): Invite your MS CSM as an **Admin**
 
 **After your MS CSM invites MS engineers, we will ask you to take an additional step to grant the MS Engineers full permissions needed to publish your app.**
 
