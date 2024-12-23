@@ -5204,7 +5204,7 @@ find-up@^6.3.0:
     locate-path "^7.1.0"
     path-exists "^5.0.0"
 
-firebase-tools@^13.29.0:
+firebase-tools@^13.29.1:
   version "13.29.1"
   resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-13.29.1.tgz#fc373ad624c1cb48d053ec22a1b38ed7ea89eb08"
   integrity sha512-fFiUF9KNdVPzcQKHqtewTzQNsjm6GrvCyVyXiIDiiUFO9zIEmM6m4sI/Y9cKg8dknCTsqr0D4cNv2d6AoUaeWg==
