@@ -33,6 +33,16 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'GTM Playbook',
+      items: [
+        'gtm/introduction',
+        'gtm/positioning',
+        'gtm/strategy',
+        'gtm/execution',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Adding a backend protocol',
       items: [
         {
