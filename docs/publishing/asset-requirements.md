@@ -39,6 +39,11 @@ All images should be PNG or JPEG.
 - App name (30 characters)
 - Short description (80 characters
 - Full description (4000 characters)
+- Link to Terms & Conditions
+- Link to Privacy Policy
+- Email address, e.g. support@valoraapp.xyz
+- Website URL
+- A public page describing how to delete an account from the app
 
 ## Apple App Store Asset Requirements
 
@@ -81,3 +86,7 @@ App Video Previews (up to 3; 30-second videos - optional)
 - Privacy & data collection information in compliance with Apple guidelines
 - What’s New / Release Notes
 - Test information - provide necessary information (e.g. a testing phone number, a recovery phrase to a testing wallet, etc.) for Apple reviewers
+- Link to Terms & Conditions
+- Link to Privacy Policy
+- Email address, e.g. support@valoraapp.xyz
+- Website URL
