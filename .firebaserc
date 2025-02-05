@@ -1,6 +1,6 @@
 {
   "projects": {
-    "staging": "mobile-stack-docs-staging",
-    "production": "mobile-stack-docs"
+    "staging": "divvi-docs-staging",
+    "production": "divvi-docs"
   }
 }
