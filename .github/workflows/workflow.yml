@@ -60,7 +60,7 @@ jobs:
           check-latest: true
       - run: yarn
       - run: yarn build
-      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOBILE_STACK_DOCS_STAGING }}' > /dev/shm/gcloud.json
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DIVVI_DOCS_STAGING }}' > /dev/shm/gcloud.json
       - run: yarn firebase deploy --project=staging
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
@@ -80,7 +80,7 @@ jobs:
           check-latest: true
       - run: yarn
       - run: yarn build
-      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOBILE_STACK_DOCS }}' > /dev/shm/gcloud.json
+      - run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DIVVI_DOCS }}' > /dev/shm/gcloud.json
       - run: yarn firebase deploy --project=production
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /dev/shm/gcloud.json
