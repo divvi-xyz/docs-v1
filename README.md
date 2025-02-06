@@ -28,6 +28,6 @@ This command generates static content into the `build` directory and can be serv
 
 GitHub workflows deploy automatically to:
 
-- staging: <https://mobile-stack-docs-staging.web.app>
-- production: <https://mobile-stack-docs.web.app>
-- production: <https://docs.mobilestack.xyz>
+- staging: <https://divvi-docs-staging.web.app>
+- production: <https://divvi-docs.web.app>
+- production: <https://docs.divvi.xyz>

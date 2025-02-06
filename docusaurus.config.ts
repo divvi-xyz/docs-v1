@@ -3,19 +3,19 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
-  title: 'Mobile Stack Docs',
-  tagline: 'Documentation for building with Mobile Stack',
+  title: 'Divvi Docs',
+  tagline: 'Documentation for building with Divvi',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.mobilestack.xyz',
+  url: 'https://docs.divvi.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mobilestack-xyz', // Usually your GitHub org/user name.
+  organizationName: 'divvixyz', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -75,14 +75,14 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Mobile Stack Docs',
+      title: 'Divvi Docs',
       logo: {
-        alt: 'Mobile Stack Logo',
+        alt: 'Divvi Logo',
         src: 'img/mobile-stack-icon.svg',
       },
       items: [
         {
-          href: 'https://github.com/mobilestack-xyz/docs',
+          href: 'https://github.com/divvixyz/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -109,7 +109,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/mobilestack-xyz',
+              href: 'https://github.com/divvixyz',
             },
           ],
         },
