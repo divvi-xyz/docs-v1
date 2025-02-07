@@ -8,7 +8,7 @@ as a referrer by submitting a request to TODO.
 ## Start recording referrals
 
 A frontend can use their referrer ID to register new protocol users
-are referrals. When those users begin transacting with protocols in a
+as referrals. When those users begin transacting with protocols in a
 way that's eligible for rewards, divvi V0 will periodically distribute
 those rewards to the frontend.
 
@@ -18,4 +18,4 @@ a transaction from the user that invokes the function
 want to do this if they expect the user to transact with a specific
 protocol and that user has not been registered for that protocol yet.
 
-There are examples at [TODO](https://github.com/mobilestack-xyz/funding-layer/tree/main/scripts).
+There are examples at [here](https://github.com/mobilestack-xyz/funding-layer/tree/main/scripts).
