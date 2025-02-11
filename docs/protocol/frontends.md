@@ -3,7 +3,7 @@
 ## Request a referrer ID
 
 To receive divvi rewards in divvi V0, a frontend builder must register
-as a referrer by submitting a request to TODO.
+as a referrer by submitting a request using this [form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform).
 
 ## Start recording referrals
 
