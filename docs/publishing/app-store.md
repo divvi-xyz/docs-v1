@@ -2,9 +2,7 @@
 
 This is a step-by-step guide for creating your Apple App Store account and enrolling in the Developer Program for your Apple iOS app(s).
 
-![table of contents](image-5.png)
-
-→ Have questions? We’re here to help! Please ping your Mobile Stack Customer Success Manager (MS CSM) on Slack for help. Your MS CSM is happy to answer questions or go through the steps on a call. You'll invite them to your account once it's created so they can guide you through the rest of the process.
+→ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/BQwGvRnSxZ) to ask questions and receive support.
 
 ## WHO on your team should start the process?
 
@@ -24,9 +22,11 @@ An Apple device (iPhone or iPad with Touch ID, Face ID, or passcode enabled, or 
 
 ## WHEN: Timeline
 
-**Please start this process as soon as the MS team starts working on your app. The goal is to avoid delays in publishing and getting your MS app live once it's built.**
+**Please apply as soon you start building. The goal is to avoid delays in publishing and getting your divvi app live.**
 
-D‑U‑N‑S® Number can take 30 business days; please start this process immediately.
+*Tip*: Applying through Apple is free and includes faster processing. Please apply at this [link](https://developer.apple.com/enroll/duns-lookup/#!/search).
+
+Alternatively, apply directly to Duns & Bradstreet for your DUNS number.
 
 - In the U.S.? [Get your D-U-N-S® Number here](https://www.dnb.com/duns/get-a-duns.html)
 
@@ -67,20 +67,18 @@ Once your enrollment information has been verified and approved, you’ll receiv
 
 After the purchase, you must wait on Apple for up to 48 hours. **Please watch your email closely for the next steps.**
 
-### Step 1.2: Invite your MS CSM
+### Step 1.2: Invite your team
 
 [Log in to App Store Connect](https://appstoreconnect.apple.com/apps)
 
 - Click “Users & Access”
-- [Invite your MSM CSM](https://developer.apple.com/help/account/manage-your-team/invite-team-members/): Invite your MS CSM as an **Admin**
+- [Invite your team](https://developer.apple.com/help/account/manage-your-team/invite-team-members/)
 
-**After your MS CSM invites MS engineers, we will ask you to take an additional step to grant the MS Engineers full permissions needed to publish your app.**
 
-## Step 2: The Mobile Stack team takes over
+## Step 3: Set up your app
 
-Your CSM will invite key engineers to the project(s). Our team will set up the app, testing, and production tracks. We will also set up your store and developer listing.
+It’s time to set up your app. After inviting your key engineers to the project(s), the team will need to create the app, set up release track(s), and set the store listing and policies, and choose which countries to publish to.
 
-During this process, you will need to provide copy and assets, as detailed in
-[Mobile Stack: App Store & Google Play Asset Requirements](https://docs.mobilestack.xyz/publishing/asset-requirements), to be used to create your store listing.
+You will need the [required assets](https://docs.divvi.xyz/publishing/asset-requirements) to complete the setup.
 
-To get started, the Mobile Stack team will require certain assets. Please complete our [intake form as soon as possible](https://forms.gle/BBG8WSCPSyEN6pS59).
+ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/BQwGvRnSxZ) to ask questions and receive support.

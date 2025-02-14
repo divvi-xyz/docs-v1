@@ -1,6 +1,6 @@
 # Overview
 
-Divv Mobile Framework is a set of software SDKs and services that
+Divvi Mobile Framework is a set of software SDKs and services that
 helps web3 builders implement and deliver native mobile experiences to
 end-users. Mobile Framework aims to support:
 
