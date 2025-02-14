@@ -2,9 +2,8 @@
 
 This is a step-by-step guide for creating your Google Play account and enrolling in the Developer Program for your Android app(s).
 
-![Google Play store setup table of contents](image-6.png)
 
-**→ Have questions?** We’re here to help! Please ping your Mobile Stack Customer Success Manager (MS CSM) on Slack for help. Your MS CSM is happy to answer questions or go through the steps on a call. You'll invite them to your account once it's created so they can guide you through the rest of the process.
+→ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/BQwGvRnSxZ) to ask questions and receive support.
 
 ## WHO on your team should start the process?
 
@@ -21,9 +20,11 @@ A traditional Google account using your business email account. Make sure you ha
 
 ## WHEN: Timeline
 
-**Please start this process as soon as the MS team starts working on your app. The goal is to avoid delays in publishing and getting your MS app live once it's built.**
+**Please apply as soon you start building. The goal is to avoid delays in publishing and getting your divvi app live.**
 
-D‑U‑N‑S® Number can take 30 business days; please start this process immediately.
+*Tip*: Applying through Apple is free and includes faster processing. Please apply at this [link](https://developer.apple.com/enroll/duns-lookup/#!/search).
+
+Alternatively, apply directly to Duns & Bradstreet for your DUNS number.
 
 - In the U.S.? [Get your D-U-N-S® Number here](https://www.dnb.com/duns/get-a-duns.html).
 
@@ -40,14 +41,6 @@ Visit https://play.google.com/apps/publish/signup/ and log in with your Google L
 **You should receive a confirmation email that your verification is in process (24-48 hrs).**
 
 ## Step 2: Once verification is complete (~15 min)
-
-**Invite your MS CSM:**
-
-- Log into your Google Play Console: https://play.google.com/console
-- Click on “Users and Permissions” to the left
-- Click “Invite New Users”
-- Invite your MS CSM as an Admin
-- Ping your MS CSM on Slack to confirm completion
 
 ### [Verify your website](https://support.google.com/googleplay/android-developer/answer/13205715?sjid=14760582666064445422-NA) using Google Search Console
 
@@ -67,7 +60,6 @@ Have the site owner receive and approve the verification request
 
 - Click Grant Access and provide an email address. Each user should be an editor
 
-Your CSM will provide a list of users to invite for your project
 
 #### Enable Google Play API services:
 
@@ -76,14 +68,15 @@ Your CSM will provide a list of users to invite for your project
 - Confirm any notes as appropriate
 - Click “View” on Google Cloud Platform
 - Click “View All Products”
-- Under Management, Choose \* “API & Service”
+- Under Management, Choose “API & Service”
 - Enable API & Services
 - Turn on Google Play Android Developer API if you have not already
 
-## Step 3: The Mobile Stack team takes over
 
-Your CSM will invite key engineers to the project(s). Our team will set up the app, testing, and production tracks. We will also set up your store and developer listing.
+## Step 3: Set up your app
 
-During this process, you will need to provide copy and assets, as detailed in Mobile Stack: App Store & Google Play Asset Requirements, to be used to create your store listing.
+It’s time to set up your app. After inviting your key engineers to the project(s), the team will need to create the app, set up release track(s), and set the store listing and policies, and choose which countries to publish to.
 
-To get started, the Mobile Stack team will require certain assets. Please complete our [intake form as soon as possible](https://forms.gle/BBG8WSCPSyEN6pS59).
+You will need the [required assets](https://docs.divvi.xyz/publishing/asset-requirements) to complete the setup.
+
+ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/BQwGvRnSxZ) to ask questions and receive support.
