@@ -3,7 +3,7 @@
 This is a step-by-step guide for creating your Google Play account and enrolling in the Developer Program for your Android app(s).
 
 
-→ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/BQwGvRnSxZ) to ask questions and receive support.
+→ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/EaxZDhMuDn) to ask questions and receive support.
 
 ## WHO on your team should start the process?
 
