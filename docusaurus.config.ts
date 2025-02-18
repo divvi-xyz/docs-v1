@@ -96,11 +96,19 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://valoraapp.co/discord',
+              href: 'https://discord.com/invite/EaxZDhMuDn',
             },
             {
               label: 'Twitter',
-              href: 'https://www.twitter.com/valoraApp',
+              href: 'https://x.com/letsdivvi',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/letsdivvi',
+            },
+            {
+              label: 'Code of Conduct',
+              href: '/community-code-of-conduct',
             },
           ],
         },
