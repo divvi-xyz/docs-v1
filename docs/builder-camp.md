@@ -1,5 +1,5 @@
 # Divvi Builder Camp
-Are you building onchain apps and looking. for sustainable funding?
+Are you building onchain apps and looking for sustainable funding?
 Join the Divvi Builder Camp and get rewarded for the value you help create onchain! No applications. No waiting period.
 Just plug into the Divvi Protocol and start building. When your app drives onchain impact (i.e. incremental value) for the backend protocol you build on, Divvi will measure that impact—and pay you builder rewards weekly.
 
@@ -51,5 +51,5 @@ Examples of desired applications integrating **Divvi Protocol**:
 - **Participants earn 50% of the total incremental revenue generated** by their product for the backend protocol they integrate
 - **Duration**: Until **December 31st, 2025**, or when the **Builder Camp ends**
 
-🏆 **The first referrer to generate $5,000 in rewards, get's an extra $5,000.** 🏆
-🏆 **The first team to generate $10,000 in rewards, get's an extra $10,000.** 🏆
+🏆 **The first builder to generate $5,000 in rewards, gets an extra $5,000.** 🏆
+🏆 **The first team to generate $10,000 in rewards, gets an extra $10,000.** 🏆
