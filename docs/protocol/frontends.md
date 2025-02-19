@@ -88,7 +88,7 @@ const hash = await client.sendTransaction(registrationTransaction)
 
 ### Confirming Registration
 
-After submitting the transaction, listen for the `ReferralRegistered` event(s) to confirm the registration was successful.
+If the transaction succeeded, then it is guaranteed all passed protocols were registered. Alternatively, you can read the `ReferralRegistered` event(s) to confirm all registered protocols.
 
 ```typescript
 import { parseEventLogs, hexToString } from 'viem'
