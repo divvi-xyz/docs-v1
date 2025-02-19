@@ -1,12 +1,12 @@
-# POSITIONING
+# Positioning
 
 The first step is to define your positioning: who are you, who is your customer, and why are they going to use your product. In this section you’ll identify and define how to position your app.
 
-## OUTCOME
+## Outcome
 
 Positioning Statement for your app.
 
-## ACTIVITIES
+## Activities
 
 ### Exercise #1 | The Product
 
@@ -28,7 +28,7 @@ Positioning Statement for your app.
 
 Taking your answers to the questions in exercises #1-3, complete the [Positioning Statement Template](https://docs.google.com/document/d/1881FbMBIeuNR0FQr_mDzP_IA1upMX9AArgDgbX433q8/edit?tab=t.0). This is your positioning statement.
 
-## ADDITIONAL RESOURCES
+## Additional Resources
 
 - [Competitor Positioning Cheat Sheet](https://docs.google.com/document/d/1_F4KOYbcXIY2kRtqmeXXkwyBAMQ18WXwZiHWoYhR9d8/edit?tab=t.0)
 - [16 Examples of Positioning Statements and How to Craft Your Own - HubSpot](https://blog.hubspot.com/marketing/positioning-statement)

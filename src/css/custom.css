@@ -5,32 +5,33 @@
  */
 
 /*
- * Lighten & darken --ifm-color-primary:
- *   https://www.colors.tools/lighten-and-darken/?currentColor=525252&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
+ * See https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
  */
 :root {
-  --ifm-color-primary: #525252;
-  --ifm-color-primary-dark: #393939;
-  --ifm-color-primary-darker: #1f1f1f;
-  --ifm-color-primary-darkest: #060606;
-  --ifm-color-primary-light: #6c6c6c;
-  --ifm-color-primary-lighter: #858585;
-  --ifm-color-primary-lightest: #9f9f9f;
+  /* We use a slightly darker red for the primary color so it's accessible on a white background */
+  --ifm-color-primary: #d42020;
+  --ifm-color-primary-dark: #bf1d1d;
+  --ifm-color-primary-darker: #b41b1b;
+  --ifm-color-primary-darkest: #941616;
+  --ifm-color-primary-light: #df2d2d;
+  --ifm-color-primary-lighter: #e13838;
+  --ifm-color-primary-lightest: #e65757;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /*
- * Lighten & darken --ifm-color-primary:
- *   https://www.colors.tools/lighten-and-darken/?currentColor=ff5050&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
+ * Dark mode
  */
 [data-theme='dark'] {
+  /* Here we can use our brand color because it's accessible on a dark background */
   --ifm-color-primary: #ff5050;
-  --ifm-color-primary-dark: #ff1010;
-  --ifm-color-primary-darker: #d00000;
-  --ifm-color-primary-darkest: #900000;
-  --ifm-color-primary-light: #ff8383;
-  --ifm-color-primary-lighter: #ffb6b6;
-  --ifm-color-primary-lightest: #ffe9e9;
+  --ifm-color-primary-dark: #ff2f2f;
+  --ifm-color-primary-darker: #ff1e1e;
+  --ifm-color-primary-darkest: #eb0000;
+  --ifm-color-primary-light: #ff7272;
+  --ifm-color-primary-lighter: #ff8282;
+  --ifm-color-primary-lightest: #ffb4b4;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+

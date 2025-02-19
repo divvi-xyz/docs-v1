@@ -1,4 +1,4 @@
-# EXECUTION
+# Execution
 
 _You’ve defined your positioning and developed a GTM Strategy, now it’s time to bring it to life. In this section you’ll refine your promotional message and learn about evaluating and optimizing acquisition channels._
 
