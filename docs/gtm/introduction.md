@@ -1,4 +1,4 @@
-# INTRODUCTION
+# Introduction
 
 The goal of this document is to support you in identifying and building a go-to-market (GTM) strategy for your new app built on Divvi. In each section, you’ll work through a set of exercises to help you prepare for your product launch. The document is divided into three sections:
 
@@ -10,11 +10,11 @@ To reiterate, this playbook provides a framework to help you discover how to bes
 
 No part of this process is static. Successful projects constantly evolve as they learn more about themselves, their users, and the market. As you work through the playbook, don’t hesitate to revisit sections, modify, or expand on your answers. And don’t be afraid of “getting it wrong.” The purpose of this is to give you a starting point to launch (i.e., take your app to market), learn, and iterate.
 
-# AUDIENCE
+# Audience
 
 Divvi builders and launchers of web3 mobile-native apps.
 
-# SECTIONS
+# Sections
 
 ### Positioning
 
