@@ -15,4 +15,4 @@ Once the user is registered, divvi v0 keeps track of their transactions with the
 1. **Sign up as a referrer** by submitting a request using this [form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform).
 2. **Make sure users register as referrals before using the protocol** by sending a registration transaction from the frontend. There are detailed instructions for how to do this [here](./frontends.md).
 
-By following these simple steps, you can integrate with **divvi v0** and start earning referral rewards!
+By following these simple steps, you can integrate with **divvi v0** and start earning divvi rewards!
