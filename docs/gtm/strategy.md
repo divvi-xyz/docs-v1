@@ -1,4 +1,4 @@
-# STRATEGY
+# Strategy
 
 _You’ve established your target market, your competition, and what differentiates you in the market. Now you’re going to develop an outline for how you get people to download and start using your app._
 
@@ -25,9 +25,9 @@ Read the description of [3 Types of Engagement Strategies](https://docs.google.c
 
 - Generate a list of ideas for each of the following questions:
 
-  - How do you get people to know your app exists? **(BRAND AWARENESS)**
-  - How do you get people to understand what your product does and why it is better than competitors? **(PRODUCT EDUCATION)**
-  - How do you get people to visit your website and/or app store page to download your app? **(OWNED-CHANNEL TRAFFIC)**
+  - How do you get people to know your app exists? **(brand awareness)**
+  - How do you get people to understand what your product does and why it is better than competitors? **(product education)**
+  - How do you get people to visit your website and/or app store page to download your app? **(owned-channel traffic**
 
 - Within each list, rank the ideas based on which you think will be most impactful at achieving that goal.
 
