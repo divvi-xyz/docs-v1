@@ -8,7 +8,7 @@ When a referred user makes an eligible transaction with a protocol, **divvi v0**
 
 Your frontend must enable users to register as your referral by sending a registration transaction to the divvi v0 registry contract before they start using the protocol. This transaction links the user to your frontend as their referrer.
 
-Once the user is registered, divvi v0 keeps track of their transactions with the protocol. If the user generates revenue for the protocol, divvi v0 calculates your reward and sends it to your frontend.
+Once the user is registered, divvi v0 keeps track of their transactions with the protocol. If the user generates revenue for the protocol, divvi v0 calculates your reward and sends it to the reward address you provided.
 
 ## Steps to Integrate
 
