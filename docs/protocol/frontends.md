@@ -1,6 +1,6 @@
 # Frontend Integration
 
-This guide explains how to integrate a frontend with **divvi V0** to register user referrals and receive rewards.
+This guide explains how to integrate a frontend with **Divvi V0** to register user referrals and receive rewards.
 
 ## Registry Contract Details
 
@@ -19,11 +19,11 @@ To participate, complete this [form](https://docs.google.com/forms/d/e/1FAIpQLSc
 
 ## Registering User Referrals
 
-Once your **referrer ID** is added, your frontend can register users as referrals. When these users transact with eligible protocols, **divvi V0** distributes rewards based on their activity.
+Once your **referrer ID** is added, your frontend can register users as referrals. When these users transact with eligible protocols, **Divvi V0** distributes rewards based on their activity.
 
 Your frontend should determine the best time to register a user as a referral. Since registration requires an on-chain transaction, the user must have enough funds to cover gas fees. To streamline the experience, we recommend including the registration transaction as part of the first transaction the user makes with the protocol. This ensures they can complete the registration and immediately proceed with their intended action.
 
-The registration transaction must be sent before the user interacts with the protocol. divvi V0 only tracks transactions that happen after a user has been registered as a referral.
+The registration transaction must be sent before the user interacts with the protocol. Divvi V0 only tracks transactions that happen after a user has been registered as a referral.
 
 ### Checking If a User Is Already Registered
 
