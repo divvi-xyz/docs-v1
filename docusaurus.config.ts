@@ -37,12 +37,17 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: ({ versionDocsDirPath, docPath }) => {
             if (docPath.startsWith('hooks/')) {
-              return `https://github.com/mobilestack-xyz/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
+              return `https://github.com/divvi-xyz/hooks/edit/main/${versionDocsDirPath}/${docPath.replace(
                 /^hooks\//,
                 '',
               )}`
+            } else if (docPath.startsWith('mobile-framework/divvi-mobile/')) {
+              return `https://github.com/divvi-xyz/divvi-mobile/edit/main/${versionDocsDirPath}/${docPath.replace(
+                /^mobile-framework\/divvi-mobile\//,
+                '',
+              )}`
             }
-            return `https://github.com/mobilestack-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`
+            return `https://github.com/divvi-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`
           },
           // The default is /docs, but we don't have anything other content but docs.
           routeBasePath: '/',
