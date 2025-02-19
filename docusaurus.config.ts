@@ -135,7 +135,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Valora Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Divvi. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
