@@ -6,16 +6,16 @@
 
 /*
  * Lighten & darken --ifm-color-primary:
- *   https://www.colors.tools/lighten-and-darken/?currentColor=525252&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
+ *   https://www.colors.tools/lighten-and-darken/?currentColor=ff5050&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
  */
 :root {
-  --ifm-color-primary: #525252;
-  --ifm-color-primary-dark: #393939;
-  --ifm-color-primary-darker: #1f1f1f;
-  --ifm-color-primary-darkest: #060606;
-  --ifm-color-primary-light: #6c6c6c;
-  --ifm-color-primary-lighter: #858585;
-  --ifm-color-primary-lightest: #9f9f9f;
+  --ifm-color-primary: #ff5050;
+  --ifm-color-primary-dark: #ff1010;
+  --ifm-color-primary-darker: #d00000;
+  --ifm-color-primary-darkest: #900000;
+  --ifm-color-primary-light: #ff8383;
+  --ifm-color-primary-lighter: #ffb6b6;
+  --ifm-color-primary-lightest: #ffe9e9;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -25,12 +25,6 @@
  *   https://www.colors.tools/lighten-and-darken/?currentColor=ff5050&currentColorMixed=7e6259&currentSteps=10&currentHarmony=180&currentHarmonyDominance=50,50,50,50
  */
 [data-theme='dark'] {
-  --ifm-color-primary: #ff5050;
-  --ifm-color-primary-dark: #ff1010;
-  --ifm-color-primary-darker: #d00000;
-  --ifm-color-primary-darkest: #900000;
-  --ifm-color-primary-light: #ff8383;
-  --ifm-color-primary-lighter: #ffb6b6;
-  --ifm-color-primary-lightest: #ffe9e9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
