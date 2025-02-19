@@ -7,11 +7,11 @@ This guide explains how to integrate a frontend with **divvi V0** to register us
 - **Contract Address**: `0xba9655677f4e42dd289f5b7888170bc0c7da8cdc`
 - **Networks**:
   - Arbitrum One
+  - Base Mainnet
+  - Celo Mainnet
   - Optimism Mainnet
   - Polygon POS Mainnet
-  - Celo Mainnet
-  - Base Mainnet
-- **ABI**: [Available here](https://github.com/mobilestack-xyz/funding-layer/blob/main/abis/Registry.ts)
+- **ABI**: You can find the contract ABI on the block explorer for the network you are using. For example, on Arbitrum, it is available near the bottom of [this Arbiscan page](https://arbiscan.io/address/0xba9655677f4e42dd289f5b7888170bc0c7da8cdc#code).
 
 ## Getting Started
 
