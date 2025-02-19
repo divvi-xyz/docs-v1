@@ -124,6 +124,14 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/divvixyz',
             },
+            {
+              label: 'Builder Camp Terms',
+              href: 'https://divvi.xyz/terms',
+            },
+            {
+              label: 'Privacy Policy',
+              href: 'https://valora.xyz/privacy',
+            },
           ],
         },
       ],
