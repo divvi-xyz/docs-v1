@@ -3,7 +3,7 @@
 This is a step-by-step guide for creating your Google Play account and enrolling in the Developer Program for your Android app(s).
 
 
-→ **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/EaxZDhMuDn) to ask questions and receive support.
+→ **Have questions?** We’re here to help! Join the [Divvi Discord](https://discord.gg/EaxZDhMuDn) to ask questions and receive support.
 
 ## WHO on your team should start the process?
 
@@ -20,7 +20,7 @@ A traditional Google account using your business email account. Make sure you ha
 
 ## WHEN: Timeline
 
-**Please apply as soon you start building. The goal is to avoid delays in publishing and getting your divvi app live.**
+**Please apply as soon you start building. The goal is to avoid delays in publishing and getting your Divvi app live.**
 
 *Tip*: Applying through Apple is free and includes faster processing. Please apply at this [link](https://developer.apple.com/enroll/duns-lookup/#!/search).
 
@@ -79,4 +79,4 @@ It’s time to set up your app. After inviting your key engineers to the project
 
 You will need the [required assets](https://docs.divvi.xyz/publishing/asset-requirements) to complete the setup.
 
- **Have questions?** We’re here to help! Join the [divvi Discord](https://discord.gg/EaxZDhMuDn) to ask questions and receive support.
+ **Have questions?** We’re here to help! Join the [Divvi Discord](https://discord.gg/EaxZDhMuDn) to ask questions and receive support.
