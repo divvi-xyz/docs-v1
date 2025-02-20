@@ -9,21 +9,26 @@ This guide explains how to integrate a frontend with **Divvi V0** to register us
   - Arbitrum One
   - Base Mainnet
   - Celo Mainnet
+  - Ethereum Mainnet
   - Optimism Mainnet
   - Polygon POS Mainnet
 - **ABI**: You can find the contract ABI on the block explorer for the network you are using. For example, on Arbitrum, it is available near the bottom of [this Arbiscan page](https://arbiscan.io/address/0xba9655677f4e42dd289f5b7888170bc0c7da8cdc#code).
 
 ## Getting Started
 
-To participate, complete this [form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform). Once submitted, your request will be processed, and your **referrer ID** will be added to the **Registry Contract**, allowing you to register referrals and receive rewards.
+To participate, complete this [form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform). In the form, you will need to provide a **referrer ID**, which uniquely identifies your frontend. See [Data Formatting Guidelines](#data-formatting-guidelines) for details. Once your request is processed, this referrer ID will be added to the Registry Contract, enabling you to register referrals and receive Divvy rewards.
 
 ## Registering User Referrals
 
 Once your **referrer ID** is added, your frontend can register users as referrals. When these users transact with eligible protocols, **Divvi V0** distributes rewards based on their activity.
 
-Your frontend should determine the best time to register a user as a referral. Since registration requires an on-chain transaction, the user must have enough funds to cover gas fees. To streamline the experience, we recommend including the registration transaction as part of the first transaction the user makes with the protocol. This ensures they can complete the registration and immediately proceed with their intended action.
+### Key Points to Remember
 
-The registration transaction must be sent before the user interacts with the protocol. Divvi V0 only tracks transactions that happen after a user has been registered as a referral.
+✅ **Gas Fees**: Registration requires an on-chain transaction, so the user must have sufficient funds for cover gas costs.
+
+✅ **Timing Matters**: The registration transaction must be completed before the user interacts with the protocol. Transactions made before registration will not be tracked by Divvi V0.
+
+For a frictionless user experience, we recommend including the registration transaction as part of the first transaction that the user makes with the protocol. This ensures they can complete the registration and immediately proceed with their intended action.
 
 ### Checking If a User Is Already Registered
 
@@ -46,7 +51,7 @@ const client = createWalletClient({
   account,
 }).extend(publicActions)
 
-const supportedProtocols = ['protocol1', 'protocol2']
+const supportedProtocols = ['somm', 'celo']
 const protocolsHex = supportedProtocols.map((protocol) =>
   stringToHex(protocol, { size: 32 }),
 )
@@ -107,3 +112,11 @@ if (receipt.status === 'success') {
   )
 }
 ```
+
+## Data Formatting Guidelines
+
+**Referrer ID**: This is the unique identifier you provide when registering your frontend. It should be a simple string (up to 32 characters) and must be converted to a 32-byte hex string for contract interactions.
+
+**Protocol Identifiers**: Each protocol is identified by a specific string. Use the correct string when referencing a protocol and convert them to 32-byte hex strings for contract interactions. The recognized protocol identifiers are:
+
+`beefy`, `somm`, `celo`, `aerodrome`, `velodrome`, `vana`, `curve`, `farcaster`, `mento`, `yearn`, `fonbnk`, `offchainlabs`, `euler`, `ubeswap`
