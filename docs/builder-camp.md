@@ -25,14 +25,12 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Allbridge](https://allbridge.io/)**
 - **[Beefy](https://beefy.com/)**
 - **[Celo](https://celo.org/)**
-- **[Curve](https://curve.fi/dex/#/ethereum/pools)**
 - **[Fonbnk](https://www.fonbnk.com/)**
 - **[Sommelier](https://www.sommelier.finance/)**
 - **[Vana](https://www.vana.org/)**
-- **[Yearn](https://yearn.fi/)**
-- **[Farcaster](https://www.farcaster.xyz/)**
-- **[Euler](https://www.euler.finance/)**
 - **[Mento](https://www.mento.org/)**
+
+Are you excited to onboard users to a protocol not listed here? Join our [Telegram](https://t.me/letsdivvi) and let us know! We'll do our best to add support.
 
 ## Example Implementations
 Examples of desired applications integrating **Divvi Protocol**:
