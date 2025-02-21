@@ -6,7 +6,7 @@ Divvi Mobile solves this by providing built-in wallet functionality to streamlin
 
 ## Why Use Divvi Mobile?
 
-✅ **Divvi Protocol built in** – Unlike other frameworks, Divvi Mobile integrates directly with the Divvi Protocol, allowing builders to **earn rewards as users interact with integrated protocols**. Divvi automatically tracks the value users bring, ensuring builders are rewarded for driving adoption.
+✅ **Divvi Protocol built in** – Unlike other frameworks, Divvi Mobile **automatically integrates** with the Divvi Protocol, so you can **earn rewards without writing extra logic**. As users interact with blockchain protocols through your app, Divvi tracks the value they generate and ensures you’re rewarded for driving adoption.
 
 ✅ **Launch faster** – Focus on integrating protocols and building your app while leveraging ready-made onboarding, cash-in, swap, and send flows.
 
