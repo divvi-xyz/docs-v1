@@ -12,11 +12,6 @@ Just plug into the Divvi Protocol and start building. When your app drives oncha
 4. **Drive value & receive incentives**: Start receiving weekly rewards for the value you deliver onchain based on the metric(s) identified as proof-of-impact for the protocol you choose to integrate.
 5. **Continue growth**: Unlock a steady flow of revenue.
 
-> **Notes**:
-- Builders can join at any point while the program is live.
-- Must provide **GitHub access**.
-- **Market fit**: Projects must target concrete market opportunities with well-defined use cases and audiences
-
 
 ## Featured Protocols
 The following protocols are available for integration via the **Divvi Protocol**:
