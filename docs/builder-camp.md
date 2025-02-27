@@ -28,7 +28,7 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Mento](https://www.mento.org/)**
 - **[Morpho](https://morpho.org//)**
 - **[Offchain Labs](https://offchainlabs.com/)**
-- **[Somm](https://www.sommelier.finance/)**
+- **[Somm](https://somm.finance/)**
 - **[Tether](https://tether.to/)**
 - **[Ubeswap](https://ubeswap.org/)**
 - **[Vana](https://www.vana.org/)**
