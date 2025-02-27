@@ -26,7 +26,7 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Farcaster](https://farcaster.xyz/)**
 - **[Fonbnk](https://www.fonbnk.com/)**
 - **[Mento](https://www.mento.org/)**
-- **[Morpho](https://morpho.org//)**
+- **[Morpho](https://morpho.org/)**
 - **[Offchain Labs](https://offchainlabs.com/)**
 - **[Somm](https://somm.finance/)**
 - **[Tether](https://tether.to/)**
