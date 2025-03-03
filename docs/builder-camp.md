@@ -21,9 +21,6 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Allbridge](https://allbridge.io/)**
 - **[Beefy](https://beefy.com/)**
 - **[Celo](https://celo.org/)**
-- **[Curve](https://curve.fi/)**
-- **[Euler](https://eulerlabs.com/)**
-- **[Farcaster](https://farcaster.xyz/)**
 - **[Fonbnk](https://www.fonbnk.com/)**
 - **[Mento](https://www.mento.org/)**
 - **[Morpho](https://morpho.org/)**
@@ -33,7 +30,6 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Ubeswap](https://ubeswap.org/)**
 - **[Vana](https://www.vana.org/)**
 - **[Velodrome](https://velodrome.finance/)**
-- **[Yearn](https://yearn.finance/)**
 
 Are you excited to onboard users to a protocol not listed here? Join our [Telegram](https://t.me/letsdivvi) and let us know! We'll do our best to add support.
 
