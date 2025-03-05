@@ -23,13 +23,8 @@ The following protocols are available for integration via the **Divvi Protocol**
 - **[Celo](https://celo.org/)**
 - **[Fonbnk](https://www.fonbnk.com/)**
 - **[Mento](https://www.mento.org/)**
-- **[Morpho](https://morpho.org/)**
-- **[Offchain Labs](https://offchainlabs.com/)**
 - **[Somm](https://somm.finance/)**
-- **[Tether](https://tether.to/)**
-- **[Ubeswap](https://ubeswap.org/)**
 - **[Vana](https://www.vana.org/)**
-- **[Velodrome](https://velodrome.finance/)**
 
 Are you excited to onboard users to a protocol not listed here? Join our [Telegram](https://t.me/letsdivvi) and let us know! We'll do our best to add support.
 

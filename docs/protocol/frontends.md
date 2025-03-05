@@ -119,4 +119,4 @@ if (receipt.status === 'success') {
 
 **Protocol Identifiers**: Each protocol is identified by a specific string. Use the correct string when referencing a protocol and convert them to 32-byte hex strings for contract interactions. The recognized protocol identifiers are:
 
-`aerodrome`, `allbridge`, `beefy`, `celo`, `curve`, `euler`, `farcaster`, `fonbnk`, `mento`, `morpho`, `offchainlabs`, `somm`, `tether`, `ubeswap`, `vana`, `velodrome`, `yearn`
+`aerodrome`, `allbridge`, `beefy`, `celo`, `fonbnk`, `mento`, `somm`, `vana`
