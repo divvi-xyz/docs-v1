@@ -7,3 +7,6 @@
 [submodule "submodules/divvi-mobile"]
 	path = submodules/divvi-mobile
 	url = https://github.com/divvi-xyz/divvi-mobile.git
+[submodule "submodules/divvi-protocol-v0"]
+	path = submodules/divvi-protocol-v0
+	url = https://github.com/divvi-xyz/divvi-protocol-v0.git
