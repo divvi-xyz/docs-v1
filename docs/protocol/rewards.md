@@ -16,7 +16,7 @@ Coming soon.
 
 ## Beefy
 
-Divvi distributes 100% of incremental harvest revenue of each referral
+Divvi distributes **100% of incremental harvest revenue** of each referral
 to the referrer. For example, if My App refers user *0x123* and the user *0x123* deposits
 liquidity in a Beefy vault, then Divvi will reward all yield Beefy
 harvests from user *0x123's* liquidity to My App.
