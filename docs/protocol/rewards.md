@@ -16,7 +16,12 @@ Coming soon.
 
 ## Beefy
 
-Coming soon.
+Divvi distributes 100% of incremental harvest revenue of each referral
+to the referrer. For example, if the My App refers Pat and Pat deposits
+liquidity in a Beefy vault, then Divvi will reward all yield Beefy
+harvests from Pat's liquidity to My App.
+
+Rewards contracts: coming soon.
 
 ## Celo
 
