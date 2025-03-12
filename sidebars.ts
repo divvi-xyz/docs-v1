@@ -25,7 +25,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Divvi Protocol',
-      items: ['protocol/overview', 'protocol/frontends'],
+      items: ['protocol/overview', 'protocol/frontends', 'protocol/rewards'],
     },
     {
       type: 'category',
