@@ -11,6 +11,8 @@ claim any pending rewards.
 Divvi distributes **100% of trading fees** of each referral
 to the referrer. For example, if My App refers user *0x123* and the user *0x123* completes a swap using Aerodrome, then Divvi will reward all trading fees from user *0x123's* swap to My App.
 
+Rewards contracts: coming soon.
+
 ## Allbridge
 
 Coming soon.
