@@ -40,7 +40,12 @@ Coming soon.
 
 ## Somm
 
-Coming soon.
+Divvi distributes **10% of incremental TVL per year** of each referral to the referrer.
+For example, if My App refers user *0x123* and the user *0x123* deposits
+liquidity in a Somm vault for a week, then Divvi will reward 10% * 1/52 of user *0x123's* 
+liquidity to My App.
+
+Rewards contracts: coming soon.
 
 ## Vana
 
