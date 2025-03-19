@@ -83,7 +83,7 @@ const config: Config = {
       title: 'Divvi Docs',
       logo: {
         alt: 'Divvi Logo',
-        src: 'img/mobile-stack-icon.svg',
+        src: 'img/divvi-icon.svg',
       },
       items: [
         {
