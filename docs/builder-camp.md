@@ -6,7 +6,7 @@ Just plug into the Divvi Protocol and start building. When your app drives oncha
 
 ### Requirements
 
-1. **Sign up**: Fill out the [Divvi Protocol Onboarding Form](https://docs.google.com/forms/d/1mPrrd6VxcJezenu7_zALkNSCQ8JJTQHnWPURo_CrL6c/edit) to get your Divvi onchain ID
+1. **Sign up**: Fill out the [Divvi Protocol Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform?usp=dialog) to get your Divvi onchain ID
 2. **Join our community**: Join our [Discord](https://discord.com/invite/EaxZDhMuDn) to get in touch with the Divvi Team, attend office hours or find like-minded builders to team up with.
 3. **Build on Divvi**: Build a web or mobile app that drives users and value onchain, integrate the Divvi Protocol V0, and one or several of our featured backend protocols.
 4. **Launch your product**: Take your innovative UX to market and start onboarding users.
