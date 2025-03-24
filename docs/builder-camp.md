@@ -4,7 +4,17 @@ Are you building onchain apps and looking for sustainable funding?
 Join the Divvi Builder Camp and get rewarded for the value you help create onchain! No applications. No waiting period.
 Just plug into the Divvi Protocol and start building. When your app drives onchain impact (i.e. incremental value) for the backend protocol you build on, Divvi will measure that impact—and pay you builder rewards weekly.
 
-### Requirements
+## Incentives
+
+- **On-chain calculation** via the **Divvi Protocol**
+- **Participants earn 50% of the total incremental revenue generated** by their product for the backend protocol they integrate
+- **Duration**: Until **December 31st, 2025**, or when the **Builder Camp ends**
+
+🏆 **The first builder to generate $5,000 in rewards, gets an extra $5,000.** 🏆
+🏆 **The first team to generate $10,000 in rewards, gets an extra $10,000.** 🏆
+
+
+## Requirements
 
 1. **Sign up**: Fill out the [Divvi Protocol Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform?usp=dialog) to get your Divvi onchain ID
 2. **Join our community**: Join our [Discord](https://discord.com/invite/EaxZDhMuDn) to get in touch with the Divvi Team, attend office hours or find like-minded builders to team up with.
@@ -41,12 +51,3 @@ Examples of desired applications integrating **Divvi Protocol**:
 
 - **Reference applications (Valora & Beefy App)**: [GitHub](https://github.com/divvi-xyz)
 - **Documentation**: [Divvi Docs](https://docs.Divvi.xyz/)
-
-## Incentives
-
-- **On-chain calculation** via the **Divvi Protocol**
-- **Participants earn 50% of the total incremental revenue generated** by their product for the backend protocol they integrate
-- **Duration**: Until **December 31st, 2025**, or when the **Builder Camp ends**
-
-🏆 **The first builder to generate $5,000 in rewards, gets an extra $5,000.** 🏆
-🏆 **The first team to generate $10,000 in rewards, gets an extra $10,000.** 🏆
