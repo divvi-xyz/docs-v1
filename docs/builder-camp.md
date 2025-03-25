@@ -11,6 +11,7 @@ Just plug into the Divvi Protocol and start building. When your app drives oncha
 - **Duration**: Until **December 31st, 2025**, or when the **Builder Camp ends**
 
 🏆 **The first builder to generate $5,000 in rewards, gets an extra $5,000.** 🏆
+
 🏆 **The first team to generate $10,000 in rewards, gets an extra $10,000.** 🏆
 
 
