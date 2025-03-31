@@ -6,10 +6,10 @@ in protocol specific rewards contracts. This contract references the
 code used to calculate rewards and provides a method for builders to
 claim any pending rewards.
 
-## Aerodrome / Velodrome
+## Aerodrome
 
 Divvi distributes **100% of trading fees** of each referral
-to the referrer. For example, if My App refers user *0x123* and the user *0x123* completes a swap using Aerodrome or Velodrome, then Divvi will reward all trading fees from user *0x123's* swap to My App.
+to the referrer. For example, if My App refers user *0x123* and the user *0x123* completes a swap using Aerodrome, then Divvi will reward all trading fees from user *0x123's* swap to My App.
 
 Rewards contracts: coming soon.
 
@@ -50,3 +50,10 @@ Rewards contracts: coming soon.
 ## Vana
 
 Coming soon.
+
+## Velodrome
+
+Divvi distributes **100% of trading fees** of each referral
+to the referrer. For example, if My App refers user *0x123* and the user *0x123* completes a swap using Velodrome, then Divvi will reward all trading fees from user *0x123's* swap to My App.
+
+Rewards contracts: coming soon.
