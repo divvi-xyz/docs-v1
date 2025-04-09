@@ -28,4 +28,4 @@ above.
 
 You can fund a Reward Pool by calling deposit on the Reward Pool contract with your
 management wallet. You can do this directly through the Safe UI if you're using a
-Safe multisig, or by connecting your management wallet to a block explorer.
+Safe multisig.
