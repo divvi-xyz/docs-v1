@@ -1,10 +1,13 @@
 # Introduction
 
-Divvi is a permissionless orchestration layer built to automatically divvy up earnings derived from referred users between app builders (referrers) and web3 protocols (backend protocols).
+Divvi is a blockchain-based protocol that makes it easy to align incentives among participants in on-chain ecosystems. Participants define objective functions — such as product-specific KPIs — and set rewards for improving these values. Participants collaborate to maximize objective functions and earn rewards for on-chain impact.
 
-Divvi’s revenue-sharing model directly aligns incentives between protocols and builders who drive adoption and user interaction through innovative UX, and enforces them as rewards in contract code for any onchain ecosystem. Protocols can define the value they want to measure as proof-of-impact, and builders can automatically earn based on the value they bring onchain in the form of referred TVL, transaction volume, network fees, etc.
+## Building on Divvi
 
-The Divvi Mobile Framework also provides a self-custody app infrastructure to help build native mobile UX in weeks rather than months.
+- Getting started: use the [Divvi App](https://app.divvi.xyz) to get started
+- Have an impact: explore active [Reward Pools](https://app.divvi.xyz) on the Divvi App and contribute to achieving their goals
+- Aligning incentives: [fund a Divvi Reward Pool](./protocol/fund-managers) to incentivize specific types of impact within an ecosystem
+- Reach mobile user: use the [Divvi Mobile Framework](./mobile-framework) to build crypto-native, self-custody mobile experiences
 
 ## Community
 

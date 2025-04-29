@@ -28,7 +28,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'protocol/overview',
         'protocol/frontends',
-        'protocol/rewards',
         'protocol/fund-managers',
       ],
     },
