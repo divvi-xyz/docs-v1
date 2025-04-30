@@ -18,11 +18,6 @@ const sidebars: SidebarsConfig = {
       label: 'Introduction',
     },
     {
-      type: 'doc',
-      id: 'builder-camp',
-      label: 'Builder Camp',
-    },
-    {
       type: 'category',
       label: 'Divvi Protocol',
       items: [
