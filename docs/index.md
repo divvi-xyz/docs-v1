@@ -7,7 +7,7 @@ Divvi is a blockchain-based protocol that makes it easy to align incentives amon
 - Getting started: use the [Divvi App](https://app.divvi.xyz) to get started
 - Have an impact: explore active [Reward Pools](https://app.divvi.xyz) on the Divvi App and contribute to achieving their goals
 - Aligning incentives: [fund a Divvi Reward Pool](./protocol/fund-managers) to incentivize specific types of impact within an ecosystem
-- Reach mobile user: use the [Divvi Mobile Framework](./mobile-framework) to build crypto-native, self-custody mobile experiences
+- Reach mobile user: use the [Divvi Mobile Framework](./mobile-framework/overview) to build crypto-native, self-custody mobile experiences
 
 ## Community
 
