@@ -13,7 +13,3 @@ Divvi is a blockchain-based protocol that makes it easy to align incentives amon
 
 If you have questions or want to discuss Divvi, please join our [Discord](https://discord.gg/EaxZDhMuDn).
 For updates and latest news, join our [Telegram](https://t.me/letsdivvi).
-
-## Divvi Builder Camp
-
-To learn more about the Divvi Builder Camp, go to the next section.
