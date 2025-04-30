@@ -62,16 +62,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: 'GTM Playbook',
-      items: [
-        'gtm/introduction',
-        'gtm/positioning',
-        'gtm/strategy',
-        'gtm/execution',
-      ],
-    },
   ],
 }
 
