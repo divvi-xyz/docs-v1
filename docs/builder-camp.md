@@ -17,12 +17,12 @@ Just plug into the Divvi Protocol and start building. When your app drives oncha
 
 ## Requirements
 
-1. **Sign up**: Fill out the [Divvi Protocol Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLScTXExYljGoWsw4-mMHf7nXUxXV6QSrXa5zUMPK2foUwpdwZQ/viewform?usp=dialog) to get your Divvi onchain ID
-2. **Join our community**: Join our [Discord](https://discord.com/invite/EaxZDhMuDn) to get in touch with the Divvi Team, attend office hours or find like-minded builders to team up with.
-3. **Build on Divvi**: Build a web or mobile app that drives users and value onchain, integrate the Divvi Protocol V0, and one or several of our featured backend protocols.
-4. **Launch your product**: Take your innovative UX to market and start onboarding users.
-5. **Drive value & receive incentives**: Start receiving weekly rewards for the value you deliver onchain based on the metric(s) identified as proof-of-impact for the protocol you choose to integrate.
-6. **Continue growth**: Unlock a steady flow of revenue.
+1. **Get started**: Use the [Divvi App](https://app.divvi.xyz/) to get started
+3. **Join our community**: Join our [Discord](https://discord.com/invite/EaxZDhMuDn) to get in touch with the Divvi Team, attend office hours or find like-minded builders to team up with.
+4. **Build on Divvi**: Build a web or mobile app that drives users and value onchain, integrate the Divvi Protocol V0, and one or several of our featured backend protocols.
+5. **Launch on mainnet**: Take your innovative UX to market and start onboarding users.
+6. **Drive value & receive incentives**: Start receiving weekly rewards for the value you deliver onchain based on the metric(s) identified as proof-of-impact for the protocol you choose to integrate.
+7. **Continue growth**: Unlock a steady flow of revenue.
 
 ## Featured Protocols
 
@@ -47,8 +47,3 @@ Examples of desired applications integrating **Divvi Protocol**:
 - **Memecoin app** (using Aerodrome)
 - **Savings circle app**
 - **Fonbnk mobile onramp/offramp app**
-
-## Resource Links
-
-- **Reference applications (Valora & Beefy App)**: [GitHub](https://github.com/divvi-xyz)
-- **Documentation**: [Divvi Docs](https://docs.Divvi.xyz/)
