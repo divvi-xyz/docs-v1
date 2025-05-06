@@ -22,7 +22,7 @@ Divvi periodically calculates the value your referred users generate and publish
 **Claiming rewards**  
 You can claim your share of provider-funded rewards directly from Divvi’s smart contracts whenever you're ready.
 
-## Steps to Integrate
+## Getting Started
 
 Integrating Divvi is simple. At a high level, builders need to:
 
@@ -33,3 +33,9 @@ Integrating Divvi is simple. At a high level, builders need to:
 1. Let Divvi handle the tracking, attribution, and rewards
 
 👉 To make this even easier, we’ve built a [guided onboarding experience](app.divvi.xyz/builders). You’ll be walked through the process step-by-step, with no need to manage raw contract calls manually.
+
+## DivviRegistry Contract Details
+
+The DivviRegistry contract is deployed at 0xEdb51A8C390fC84B1c2a40e0AE9C9882Fa7b7277 on the Optimism network.
+
+**ABI**: You can find the contract ABI [here](https://optimistic.etherscan.io/address/0xEdb51A8C390fC84B1c2a40e0AE9C9882Fa7b7277#readProxyContract) by clicking on the implementation contract address and scrolling down to the "Contract ABI" section.
