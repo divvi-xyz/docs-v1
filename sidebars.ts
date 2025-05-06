@@ -20,11 +20,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Divvi Protocol',
-      items: [
-        'protocol/overview',
-        'protocol/frontends',
-        'protocol/fund-managers',
-      ],
+      items: ['protocol/overview', 'protocol/fund-managers'],
     },
     {
       type: 'category',
