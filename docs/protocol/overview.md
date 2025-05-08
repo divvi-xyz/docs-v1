@@ -32,7 +32,7 @@ Integrating Divvi is simple. At a high level, builders need to:
 1. Register the transaction hash with Divvi
 1. Let Divvi handle the tracking, attribution, and rewards
 
-👉 To make this even easier, we’ve built a [guided onboarding experience](app.divvi.xyz/builders). You’ll be walked through the process step-by-step, with no need to manage raw contract calls manually.
+👉 To make this even easier, we’ve built a [guided onboarding experience](https://app.divvi.xyz/builders). You’ll be walked through the process step-by-step, with no need to manage raw contract calls manually.
 
 ## DivviRegistry Contract Details
 
