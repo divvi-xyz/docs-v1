@@ -12,16 +12,16 @@ Divvi manages tracking, attribution, and payouts, so you can focus on creating h
 
 Once you’ve integrated Divvi and registered a user, Divvi takes care of the rest:
 
-**User registration**  
+📝 **User registration**  
 Your app appends referral metadata to a transaction. Once the transaction is confirmed and registered, the user is linked to you as their referrer.
 
-**Activity tracking**  
+📊 **Activity tracking**  
 Divvi monitors the user’s on-chain activity with the Campaigns you’ve signed up for.
 
-**Reward calculation**  
+🧮 **Reward calculation**  
 Divvi periodically calculates your rewards based on referred user activity and publishes the results on-chain.
 
-**Claiming rewards**  
+💸 **Claiming rewards**  
 You can claim your rewards directly from Divvi’s smart contracts whenever you're ready.
 
 ## Getting Started
