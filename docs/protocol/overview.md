@@ -48,8 +48,8 @@ The DivviRegistry contract is deployed on the **Optimism** network at 0xEdb51A8C
 #### Check for existing Referrals
 
 You can check the referral status of a particular user for a given campaign by calling the [isUserReferredToProvider](https://github.com/divvi-xyz/divvi-protocol-v0/blob/main/contracts/DivviRegistry.sol#L328)
-method on the `DivviRegistry` contract. This will return `true` if the user has been referred to the given campaign by any provider.
+method on the `DivviRegistry` contract. This will return `true` if the user has been referred to the given campaign by any builder.
 
-To determine which builder has referred some user to a given provider, you can call the [getReferringConsumer](https://github.com/divvi-xyz/divvi-protocol-v0/blob/main/contracts/DivviRegistry.sol#L341)
-method on the `DivviRegistry` contract, which will return the builder address which referred queried user to the given provider. If the user has not yet been referred
-to the provider, this will return the zero address instead.
+To determine which builder has referred some user to a given campaign, you can call the [getReferringConsumer](https://github.com/divvi-xyz/divvi-protocol-v0/blob/main/contracts/DivviRegistry.sol#L341)
+method on the `DivviRegistry` contract, which will return the builder address which referred the queried user to the given campaign. If the user has not yet been referred
+to the campaign, this will return the zero address instead.
