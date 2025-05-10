@@ -44,3 +44,12 @@ The DivviRegistry is the on-chain source of truth for all participating builders
 The DivviRegistry contract is deployed on the **Optimism** network at 0xEdb51A8C390fC84B1c2a40e0AE9C9882Fa7b7277.
 
 **ABI**: You can find the contract ABI [here](https://optimistic.etherscan.io/address/0xEdb51A8C390fC84B1c2a40e0AE9C9882Fa7b7277#readProxyContract) by clicking on the implementation contract address and scrolling down to the "Contract ABI" section.
+
+#### Check for existing Referrals
+
+You can check the referral status of a particular user for a given campaign by calling the [isUserReferredToProvider](https://github.com/divvi-xyz/divvi-protocol-v0/blob/main/contracts/DivviRegistry.sol#L328)
+method on the `DivviRegistry` contract. This will return `true` if the user has been referred to the given campaign by any builder.
+
+To determine which builder has referred some user to a given campaign, you can call the [getReferringConsumer](https://github.com/divvi-xyz/divvi-protocol-v0/blob/main/contracts/DivviRegistry.sol#L341)
+method on the `DivviRegistry` contract, which will return the builder address which referred the queried user to the given campaign. If the user has not yet been referred
+to the campaign, this will return the zero address instead.
