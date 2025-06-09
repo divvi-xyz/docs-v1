@@ -46,6 +46,11 @@ const config: Config = {
                 /^mobile-framework\/divvi-mobile\//,
                 '',
               )}`
+            } else if (docPath.startsWith('protocol/calculate-kpi/')) {
+              return `https://github.com/divvi-xyz/divvi-protocol-v0/edit/main/${versionDocsDirPath}/${docPath.replace(
+                /^protocol\//,
+                '',
+              )}`
             }
             return `https://github.com/divvi-xyz/docs/edit/main/${versionDocsDirPath}/${docPath}`
           },
