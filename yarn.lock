@@ -5433,10 +5433,10 @@ find-up@^6.3.0:
     locate-path "^7.1.0"
     path-exists "^5.0.0"
 
-firebase-tools@^14.12.1:
-  version "14.12.1"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-14.12.1.tgz#9d5d6df3f97c3d65b749635db822715af526c82f"
-  integrity sha512-F4wZ/oXPVHfciLZh/Leq6uEh3LRrp9TsGPwcOFmMafO8c1HSXO25bOKxT7gHfvC2/3ftJt97+eSLTTgtGz4Zbw==
+firebase-tools@^14.14.0:
+  version "14.14.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-14.14.0.tgz#b067a64731a4c9f0a6d3f5a78a204c632f93feac"
+  integrity sha512-QDc/PL8wMGm6ZD9DDHIcQpK/8SmoVL6Hec3GohJjCumYpHCQsQK/8ncZmY21lW//rN29Q/CLYhhU9SN9u3xoEg==
   dependencies:
     "@electric-sql/pglite" "^0.3.3"
     "@electric-sql/pglite-tools" "^0.2.8"
